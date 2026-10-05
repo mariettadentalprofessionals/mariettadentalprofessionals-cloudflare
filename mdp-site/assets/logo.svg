@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 160" width="600" height="160">
+  <defs>
+    <linearGradient id="toothGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ad1c9"/>
+      <stop offset="100%" stop-color="#1fa6a0"/>
+    </linearGradient>
+    <linearGradient id="circleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#eafaf8"/>
+      <stop offset="100%" stop-color="#cdf0ec"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="80" cy="80" r="68" fill="url(#circleGrad)"/>
+  <circle cx="80" cy="80" r="68" fill="none" stroke="#1fa6a0" stroke-width="2" opacity="0.35"/>
+
+  <path d="M80 42
+           c-13 0 -22 8 -26 8
+           c-9 0 -16 9 -16 22
+           c0 14 4 28 9 40
+           c4 10 8 20 15 20
+           c6 0 7 -16 9 -24
+           c1.5 -6 4 -9 9 -9
+           c5 0 7.5 3 9 9
+           c2 8 3 24 9 24
+           c7 0 11 -10 15 -20
+           c5 -12 9 -26 9 -40
+           c0 -13 -7 -22 -16 -22
+           c-4 0 -13 -8 -26 -8 Z"
+        fill="url(#toothGrad)"/>
+  <ellipse cx="68" cy="60" rx="5" ry="7" fill="#ffffff" opacity="0.55"/>
+
+  <text x="168" y="72" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="34" font-weight="700" fill="#0f4c4a">Marietta Dental</text>
+  <text x="168" y="106" font-family="'Poppins','Segoe UI',Arial,sans-serif" font-size="34" font-weight="700" fill="#1fa6a0">Professionals</text>
+  <text x="168" y="130" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="400" fill="#5a7a78" letter-spacing="1.5">FAMILY &amp; COSMETIC DENTISTRY</text>
+</svg>
