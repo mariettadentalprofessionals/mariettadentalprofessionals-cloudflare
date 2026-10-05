@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Marietta Dental Professionals</title>
+<meta name="description" content="Get in touch with Marietta Dental Professionals. Schedule an appointment or ask questions about our dental services in Marietta and East Cobb, GA.">
+
+<link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Contact Us | Marietta Dental Professionals">
+<meta property="og:description" content="Schedule an appointment or ask questions about our dental services in Marietta and East Cobb, GA.">
+<meta property="og:image" content="assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="assets/og-image.png">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a href="index.html" class="brand">
+      <img src="assets/logo-mark.svg" alt="Marietta Dental Professionals logo">
+      <span class="brand-text">
+        <span class="main">Marietta Dental Professionals</span>
+        <span class="sub">FAMILY &amp; COSMETIC DENTISTRY</span>
+      </span>
+    </a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="nav-actions">
+      <a href="contact.html" class="btn btn-primary">Book an Appointment</a>
+      <button class="nav-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</header>
+
+<section class="hero" style="padding: 60px 0 50px;">
+  <div class="container" style="text-align:center; max-width: 700px;">
+    <span class="eyebrow">Contact Us</span>
+    <h1 style="font-size:38px;">We'd love to see you smile</h1>
+    <p class="lead" style="margin: 0 auto;">Reach out to schedule an appointment, ask a question, or learn more about our same-day dental care.</p>
+  </div>
+</section>
+
+<section class="section" style="padding-top: 20px;">
+  <div class="container contact-grid">
+
+    <div>
+      <div class="contact-info-card">
+        <h2>Get In Touch</h2>
+        <div class="info-row">
+          <div class="ic">&#128205;</div>
+          <div><strong>Our Location</strong><span>Marietta &amp; East Cobb, Georgia</span></div>
+        </div>
+        <div class="info-row">
+          <div class="ic">&#128222;</div>
+          <div><strong>Phone</strong><span>(770) 555-0123</span></div>
+        </div>
+        <div class="info-row">
+          <div class="ic">&#9993;</div>
+          <div><strong>Email</strong><span>info@mariettadentalpros.com</span></div>
+        </div>
+        <div class="info-row">
+          <div class="ic">&#128337;</div>
+          <div><strong>Office Hours</strong><span>Mon - Fri: 8:00 AM - 5:00 PM</span></div>
+        </div>
+        <div class="social-row">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Instagram">ig</a>
+          <a href="#" aria-label="Google">G</a>
+        </div>
+      </div>
+
+      <div class="hours-card">
+        <div class="hours-row"><span class="day">Monday - Friday</span><span>8:00 AM - 5:00 PM</span></div>
+        <div class="hours-row"><span class="day">Saturday</span><span>By Appointment</span></div>
+        <div class="hours-row"><span class="day">Sunday</span><span>Closed</span></div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <div style="display:flex; align-items:center; gap:14px; margin-bottom:20px;">
+        <img src="assets/patient-5.png" alt="Friendly team member" style="width:54px; height:54px; border-radius:50%;">
+        <div>
+          <h2 style="margin:0; font-size:20px;">Send Us a Message</h2>
+          <p style="margin:0; font-size:13.5px; color: var(--muted);">We typically respond within one business day.</p>
+        </div>
+      </div>
+
+      <form id="contact-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" name="first-name" data-required placeholder="Jane">
+            <span class="error-text">Please enter your first name.</span>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" name="last-name" data-required placeholder="Smith">
+            <span class="error-text">Please enter your last name.</span>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" data-required placeholder="jane@email.com">
+            <span class="error-text">Please enter a valid email address.</span>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" data-required placeholder="(770) 555-0123">
+            <span class="error-text">Please enter a valid phone number.</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="service">Service Interested In</label>
+          <select id="service" name="service" data-required>
+            <option value="">Select a service</option>
+            <option>Cleanings &amp; Exams</option>
+            <option>Fillings &amp; Crowns</option>
+            <option>Dental Implants</option>
+            <option>Emergency Dentistry</option>
+            <option>Cosmetic Dentistry</option>
+            <option>Clear Aligners</option>
+            <option>Oral Surgery</option>
+            <option>Same-Day Dentistry</option>
+          </select>
+          <span class="error-text">Please select a service.</span>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" data-required placeholder="Tell us a bit about what you need..."></textarea>
+          <span class="error-text">Please enter a short message.</span>
+        </div>
+        <button type="submit" class="btn btn-coral btn-lg" style="width:100%;">Send Message</button>
+        <div id="form-msg" class="form-msg"></div>
+      </form>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="map-wrap">
+      <iframe
+        src="https://www.google.com/maps?q=Marietta,GA&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Map showing Marietta, GA">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand">
+          <img src="assets/logo-mark.svg" alt="Marietta Dental Professionals" style="height:38px;">
+          <span class="brand-text"><span class="main" style="color:#fff;">Marietta Dental Professionals</span></span>
+        </div>
+        <p>Modern dentistry that fits your busy life with fast, efficient care in Marietta and East Cobb, GA.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Services</h4>
+        <ul>
+          <li><a href="index.html#services">Cleanings &amp; Exams</a></li>
+          <li><a href="index.html#services">Dental Implants</a></li>
+          <li><a href="index.html#services">Cosmetic Dentistry</a></li>
+          <li><a href="index.html#services">Emergency Dentistry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Marietta &amp; East Cobb, Georgia</p>
+        <p>Mon - Fri: 8:00 AM - 5:00 PM</p>
+        <a href="contact.html" class="btn btn-primary" style="margin-top:8px;">Get In Touch</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; <span id="year"></span> Marietta Dental Professionals. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

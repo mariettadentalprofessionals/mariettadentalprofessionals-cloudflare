@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <defs>
+    <linearGradient id="toothGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5ad1c9"/>
+      <stop offset="100%" stop-color="#1fa6a0"/>
+    </linearGradient>
+  </defs>
+  <rect width="160" height="160" rx="32" fill="#0f4c4a"/>
+  <path d="M80 42
+           c-13 0 -22 8 -26 8
+           c-9 0 -16 9 -16 22
+           c0 14 4 28 9 40
+           c4 10 8 20 15 20
+           c6 0 7 -16 9 -24
+           c1.5 -6 4 -9 9 -9
+           c5 0 7.5 3 9 9
+           c2 8 3 24 9 24
+           c7 0 11 -10 15 -20
+           c5 -12 9 -26 9 -40
+           c0 -13 -7 -22 -16 -22
+           c-4 0 -13 -8 -26 -8 Z"
+        fill="url(#toothGrad2)"/>
+  <ellipse cx="68" cy="60" rx="5" ry="7" fill="#ffffff" opacity="0.55"/>
+</svg>
